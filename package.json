@@ -1,0 +1,15 @@
+{
+  "name": "final-exam",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Software Testing Final Exam - Playwright (TypeScript) on SauceDemo",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report",
+    "summary": "node scripts/generate-summary.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.0.0"
+  }
+}

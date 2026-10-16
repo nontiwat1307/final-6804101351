@@ -1,0 +1,3 @@
+node_modules/
+test-results/
+# NOTE: playwright-report/ and reports/ are intentionally NOT ignored (required for submission)
